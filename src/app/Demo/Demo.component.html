@@ -1,0 +1,6 @@
+ 
+
+<p>Name : <input [(ngModel)]="UserDetails.name" type="text" #name></p>
+<p>Track Name : <input [(ngModel)]="UserDetails.trackname" type="text" #trckname></p>
+<p>Room Name : <input [(ngModel)]="UserDetails.roomname" type="text" #roomname></p>
+<button (click)="onCall(name.value,trckname.value,roomname.value)">Store The Value </button>

@@ -1,0 +1,11 @@
+
+<div style="text-align:center">
+<app-Demo (Request)="UserDetails.name=$event" (Request)="UserDetails.trackname=$event" (Request)="UserDetails.roomname=$event"></app-Demo>
+
+<br>
+<table align="center">
+  <tr><td>Name:</td><td>{{UserDetails.name}}</td></tr>
+  <tr><td>Track Name:</td><td>{{UserDetails.trackname}}</td></tr>
+  <tr><td>Room Name:</td><td>{{UserDetails.roomname}}</td></tr>
+</table>
+</div>
