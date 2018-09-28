@@ -1,0 +1,14 @@
+
+
+
+<p>Your username is : {{User.username}}</p>
+<p>Your password is : {{User.password}}</p>
+
+<p>Enter Username : <input  [(ngModel)]="User.username" placeholder="username"  type="text" #uname></p>
+<p>Enter password:<input [(ngModel)]="User.password" placeholder="password" #upass type="password" ></p>
+
+
+<button (click)="onClick($event,uname.value,upass.value)">Show Details</button>
+<br>
+<br>
+{{ans}}
